@@ -69,3 +69,32 @@ h2{
     background-color: var(--blanco);
     padding: 5rem;
 }
+.d-flex-2
+{
+    display: flex;
+    flex-direction: row;
+}
+.d-flex-3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.d-flex-4{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: start;
+}
+.d-flex-5{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    align-items: end;
+}
+
+.d-flex-6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
